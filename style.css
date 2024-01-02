@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.above-text {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color:whitesmoke;
+    border-color: black;
+    font-size: 8.5vh;
+}
+
+.ball-area {
+    height: 90vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    font-size: 10vw;
+}
+
+.ball {
+    background-color : black;
+    border-radius : 50%;
+    position: absolute;
+}
